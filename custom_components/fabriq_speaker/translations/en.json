@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Fabriq Wi-Fi Speaker",
+        "description": "Enter the local IP address and name of your Fabriq Chorus / Riff (Linkplay A31) speaker. It can be added even while in sleep mode.",
+        "data": {
+          "host": "IP Address (e.g. 192.168.8.124)",
+          "name": "Speaker Name"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This Fabriq speaker is already configured."
+    }
+  }
+}
