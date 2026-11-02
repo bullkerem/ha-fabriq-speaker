@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fabriq Wi-Fi Hoparlör Ekle",
+        "description": "Fabriq Chorus / Riff (Linkplay A31) hoparlörünüzün yerel IP adresini ve adını girin. Hoparlör o an uyku modunda olsa bile eklenebilir.",
+        "data": {
+          "host": "IP Adresi (Örn: 192.168.8.124)",
+          "name": "Hoparlör Adı"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Bu Fabriq hoparlör zaten eklenmiş."
+    }
+  }
+}
