@@ -1,0 +1,6 @@
+{
+  "name": "Fabriq Wi-Fi Speaker (Linkplay A31)",
+  "render_readme": true,
+  "homeassistant": "2024.1.0",
+  "iot_class": "Local Polling"
+}
