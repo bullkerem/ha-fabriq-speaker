@@ -1,0 +1,35 @@
+send_command:
+  name: Donanım Komutu Gönder
+  description: Fabriq hoparlöre doğrudan Linkplay HTTP API komutu (örn. EQLoad:2, PromptEnable:0, reboot) gönderir.
+  fields:
+    host:
+      name: Hedef IP Adresi
+      description: Hoparlörün IP adresi (boş bırakılırsa veya 'all' yazılırsa tüm Fabriq hoparlörlere gönderilir).
+      example: "192.168.8.124"
+    command:
+      name: Komut
+      description: Gönderilecek Linkplay HTTP API komutu.
+      required: true
+      example: "EQLoad:2"
+
+join_multiroom:
+  name: Multiroom Gruba Bağla
+  description: İkinci bir Fabriq hoparlörü ana (Master) Fabriq hoparlöre donanımsal olarak bağlar.
+  fields:
+    master_host:
+      name: Ana Hoparlör IP Adresi (Master)
+      required: true
+      example: "192.168.8.124"
+    slave_host:
+      name: Bağlanacak Hoparlör IP Adresi (Slave)
+      required: true
+      example: "192.168.8.241"
+
+leave_multiroom:
+  name: Multiroom Gruptan Ayır (Tekil Mod)
+  description: Fabriq hoparlör(ler)i multiroom grubundan çıkarıp bağımsız (tekil) moda alır.
+  fields:
+    host:
+      name: Hedef IP Adresi
+      description: Hoparlör IP adresi (boş bırakılırsa tümü ayrılır).
+      example: "192.168.8.241"
