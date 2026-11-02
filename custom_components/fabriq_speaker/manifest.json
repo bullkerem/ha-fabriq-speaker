@@ -1,0 +1,11 @@
+{
+  "domain": "fabriq_speaker",
+  "name": "Fabriq Wi-Fi Speaker",
+  "codeowners": ["@bullkerem"],
+  "config_flow": true,
+  "documentation": "https://github.com/bullkerem/ha-fabriq-speaker",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/bullkerem/ha-fabriq-speaker/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
