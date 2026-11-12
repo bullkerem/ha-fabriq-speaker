@@ -168,7 +168,7 @@ class FabriqMediaPlayer(CoordinatorEntity[FabriqSpeakerCoordinator], MediaPlayer
 
     async def async_volume_up(self) -> None:
         """Step volume up by 5%."""
-        await self. async_set_volume_level(min(1.0, self.volume_level + 0.05))
+        await self.async_set_volume_level(min(1.0, self.volume_level + 0.05))
 
     async def async_volume_down(self) -> None:
         """Step volume down by 5%."""
